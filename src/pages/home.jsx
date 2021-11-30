@@ -1,13 +1,10 @@
 import React from "react";
-
-import Nav from "./../components/nav";
 import Header from "./../components/header";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <Nav/>
       <aside className="text-center bg-gradient-primary-to-secondary">
         <div className="container px-5">
           <div className="row gx-5 justify-content-center">

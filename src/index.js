@@ -11,10 +11,14 @@ import './assets/custom/styles.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import './assets/custom/scripts';
 
+import { BrowserRouter } from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

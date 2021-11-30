@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Nav = () => {
     return (
@@ -13,6 +14,9 @@ const Nav = () => {
                     <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li className="nav-item"><a className="nav-link me-lg-3" href="#features">Features</a></li>
                         <li className="nav-item"><a className="nav-link me-lg-3" href="#download">Download</a></li>
+                        <li className="nav-item"><Link to="/api" className="nav-link me-lg-3" >Api</Link></li>
+                        <li className="nav-item"><Link to="/register" className="nav-link me-lg-3" >Register</Link></li>
+                        <li className="nav-item"><Link to="/maps" className="nav-link me-lg-3" >Map</Link></li>
                     </ul>
                     <button className="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span className="d-flex align-items-center">
