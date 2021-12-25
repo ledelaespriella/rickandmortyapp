@@ -13,8 +13,7 @@ const Register = () => {
 
     const { 
         register, 
-        handleSubmit, 
-        watch, 
+        handleSubmit,  
         formState: { errors } 
     } = useForm({
         resolver: yupResolver(schema)
